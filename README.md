@@ -38,11 +38,8 @@ Vous avez deux choix : la coopération (friend) ou le considérer comme un adver
 En fonction de vos deux choix, les gains (ou pertes) sont répartis de la manière suivante.
 
 | Moi @ L'autre | friend          | foe        |
-
 | ------------- | --------------- | ---------- |
-
 | friend        | 3 @ 3           | 0 @ 5      |
-
 | foe           | 5 @ 0           | 1 @ 1      |
 
 ## Comment faire ?
