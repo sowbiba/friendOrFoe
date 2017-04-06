@@ -1,0 +1,18 @@
+{
+    "name": "robinduval/hackathon",
+    "description": "New Version of the Hackathon",
+    "authors": [
+        {
+            "name": "Robin Duval",
+            "email": "leyoda@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+        "Hackathon\\Game\\" : "src/Game/Engine/",
+        "Hackathon\\PlayerIA\\" : "src/Game/PlayerIA/",
+        "Hackathon\\Tests\\" : "src/Tests/"
+      }
+    }
+}

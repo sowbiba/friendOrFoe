@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./vendor/autoload.php" colors="true" timeoutForSmallTests="1" timeoutForMediumTests="5" timeoutForLargeTests="10">
+    <testsuites>
+        <testsuite name="Hackathon friend or foe test">
+            <directory suffix="Test.php">src/Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory>./vendor</directory>
+        </blacklist>
+    </filter>
+</phpunit>
