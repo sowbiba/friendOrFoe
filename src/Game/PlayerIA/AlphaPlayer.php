@@ -41,6 +41,24 @@ class AlphaPlayer extends Player
         // How can i display the result of each round ? $this->prettyDisplay()
         // -------------------------------------    -----------------------------------------------------
 
-        return parent::friendChoice();
+
+
+
+//        $opponentStats = $this->result->getStatsFor($this->opponentSide);
+//
+//        if (0 === $opponentStats['foe']) { // oppenent only responds friend
+//            return parent::foeChoice();
+//        } elseif (0 === $opponentStats['friend']) { // oppenent only responds foe
+//            return parent::friendChoice();
+//        }
+//
+//        if (
+//            ($opponentStats['foe'] > $opponentStats['friend']) ||
+//            ($opponentStats['foe'] < $opponentStats['friend'])
+//        ) {
+//            return parent::foeChoice();
+//        }
+
+        return parent::foeChoice();
     }
 };
